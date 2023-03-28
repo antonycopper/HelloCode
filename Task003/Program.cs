@@ -32,3 +32,7 @@ else if (day == "7")
 {
     Console.WriteLine("Воскресенье :-/");
 }
+else
+{
+    Console.WriteLine ("Это вообще не день недели");
+}
