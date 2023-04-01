@@ -8,10 +8,10 @@
 int numberRandom = new Random().Next(10, 100); // 99+1
 Console.WriteLine($"Случайное число из отрезка 10-99 => {numberRandom}");
 
-int firsDigit = numberRandom / 10;
+int firstDigit = numberRandom / 10;
 int secondDigit = numberRandom % 10;
 
-if (firsDigit > secondDigit)
+if (firstDigit > secondDigit)
 {
     Console.WriteLine($"Наибольшая цифра числа => {firstDigit}");
 }
