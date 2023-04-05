@@ -10,7 +10,7 @@ string Spreadsheet(int nNum)
     {
         spreadsheetResult = spreadsheetResult + $"|{i,3}  | {i * i,3}| \n"; // выравниваем 3 знака
     }
-    spreadsheetResult = spreadsheetResult+ "-----------";
+    spreadsheetResult = spreadsheetResult + "-----------";
     return spreadsheetResult;
 }
 
