@@ -22,5 +22,5 @@ int SumNumbers(int num)   // - это вход в программу
                           // то есть полученное значение в 
                           // (SumNumbers(number)), с помощью знака =
                           // присваивает в int result  и выводит уже,
-                          // с помощью строки Console.WriteLine.
+                          // с помощью строки Console.WriteLine в 9 строчке.
 }
