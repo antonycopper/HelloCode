@@ -6,20 +6,21 @@
 int[] array = new int[8];
 
 FillArray(array);
+Console.WriteLine("Массив из 8 элементов, заполненный 0 и 1:");
 PrintArray(array);
 
 
 void FillArray(int[] userArray)
 {
+    Random num = new Random();
     for (int i = 0; i < userArray.Length; i++)
     {
-        userArray[i] = new Random().Next(0, 2);
+        userArray[i] = num.Next(0, 2);
     }
 }
 
 void PrintArray(int[] userArray)
 {
-    Console.WriteLine("Массив из 8 элементов, заполненный 0 и 1:");
     Console.Write("[");
     for (int i = 0; i < userArray.Length; i++)
     {
