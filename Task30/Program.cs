@@ -23,7 +23,11 @@ void PrintArray(int[] userArray)
     Console.Write("[");
     for (int i = 0; i < userArray.Length; i++)
     {
-        Console.Write($"{userArray[i]},");
+        if (i == userArray.Length - 1)
+        {
+            Console.Write($"{userArray[i]}");
+        }
+        else Console.Write($"{userArray[i]},");
     }
     Console.Write("]");
     Console.WriteLine();
